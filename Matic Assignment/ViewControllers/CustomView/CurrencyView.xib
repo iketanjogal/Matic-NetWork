@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CurrencyView" customModule="Matic_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blD-ni-qAd">
+                    <rect key="frame" x="57" y="303" width="300" height="300"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJd-WV-oiF">
+                            <rect key="frame" x="0.0" y="249" width="300" height="51"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51" id="8Wc-U7-Bo7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                            <state key="normal" title="Ok"/>
+                            <connections>
+                                <action selector="okButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="K7J-0v-GnL"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GDt-mC-kF8">
+                            <rect key="frame" x="50" y="65" width="200" height="170"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="JiX-w1-yOa"/>
+                                <constraint firstAttribute="height" constant="170" id="egl-vl-uWk"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1k-LX-ZIp">
+                            <rect key="frame" x="129" y="15" width="42" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="9mq-Mt-jgj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="MhE-nL-8iG"/>
+                        <constraint firstItem="p1k-LX-ZIp" firstAttribute="centerX" secondItem="blD-ni-qAd" secondAttribute="centerX" id="OwN-m3-Xh0"/>
+                        <constraint firstAttribute="bottom" secondItem="eJd-WV-oiF" secondAttribute="bottom" id="QLG-LU-mhf"/>
+                        <constraint firstAttribute="trailing" secondItem="eJd-WV-oiF" secondAttribute="trailing" id="WGX-Du-NGL"/>
+                        <constraint firstItem="GDt-mC-kF8" firstAttribute="centerY" secondItem="blD-ni-qAd" secondAttribute="centerY" id="ZTQ-S7-psF"/>
+                        <constraint firstItem="eJd-WV-oiF" firstAttribute="leading" secondItem="blD-ni-qAd" secondAttribute="leading" id="a6L-em-V9d"/>
+                        <constraint firstAttribute="width" constant="300" id="dHz-Re-pSz"/>
+                        <constraint firstItem="p1k-LX-ZIp" firstAttribute="top" secondItem="blD-ni-qAd" secondAttribute="top" constant="15" id="m6C-rI-HAg"/>
+                        <constraint firstItem="GDt-mC-kF8" firstAttribute="centerX" secondItem="blD-ni-qAd" secondAttribute="centerX" id="zWE-Ld-Lgs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+            <constraints>
+                <constraint firstItem="blD-ni-qAd" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="P20-9M-usa"/>
+                <constraint firstItem="blD-ni-qAd" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="c9n-VB-9uG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="blD-ni-qAd" id="EAo-gW-KE7"/>
+                <outlet property="icon" destination="GDt-mC-kF8" id="Q19-yl-YpK"/>
+                <outlet property="name" destination="p1k-LX-ZIp" id="Aly-5X-qkO"/>
+            </connections>
+            <point key="canvasLocation" x="-30.434782608695656" y="35.491071428571423"/>
+        </view>
+    </objects>
+</document>

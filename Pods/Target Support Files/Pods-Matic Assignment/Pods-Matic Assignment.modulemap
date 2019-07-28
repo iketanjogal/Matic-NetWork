@@ -1,0 +1,6 @@
+module Pods_Matic_Assignment [system] {
+  umbrella header "Pods-Matic Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

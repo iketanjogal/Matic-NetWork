@@ -1,0 +1,102 @@
+[
+  {
+    "name": "PACcoin",
+    "shortName" : "pac",
+    "rupee":"110.0"
+  },
+  {
+    "name": "OxBitcoin",
+    "shortName" : "oxbtc",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Achain",
+    "shortName" : "act",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Action Coin",
+    "shortName" : "actn",
+   "rupee":"110.0"
+  },
+  {
+    "name": "AdEx",
+    "shortName" : "adx",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Agoras Tauchain",
+    "shortName" : "agrs",
+    "rupee":"110.0"
+  },
+  {
+      "name": "Cosmos",
+      "shortName" : "atom",
+      "rupee":"110.0"
+  },
+  {
+    "name": "Aeternity",
+    "shortName" : "ae",
+    "rupee":"110.0"
+  },
+  {
+    "name": "SingularityNET",
+    "shortName" : "agi",
+    "rupee":"110.0"
+  },
+  {
+    "name": "2Give",
+    "shortName" : "2give",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Cardano",
+    "shortName" : "ada",
+    "rupee":"110.0"
+  },
+  {
+    "name": "ADD Token",
+    "shortName" : "add",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Arcblock",
+    "shortName" : "abt",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Aeon",
+    "shortName" : "aeon",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Aion",
+    "shortName" : "aion",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Ambrosus",
+    "shortName" : "amb",
+    "rupee":"110.0"
+  },
+  {
+    "name": "AppCoins",
+    "shortName" : "appc",
+    "rupee":"110.0"
+  },
+  {
+    "name": "HyperSpace (Synereo)",
+    "shortName" : "amp",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Basic Attention Token",
+    "shortName" : "bat",
+    "rupee":"110.0"
+  },
+  {
+    "name": "Cube",
+    "shortName" : "auto",
+    "rupee":"110.0"
+  }
+]
